@@ -37,7 +37,7 @@ function App() {
           Password Generator
         </h1>
 
-        <div className="flex shadow rounded-lg overflow-hidden mb-4">
+        <div className="flex shadow rounded-lg overflow-hidden mb-5">
           <input
             text="text"
             value={password}
@@ -50,8 +50,8 @@ function App() {
             Copy
           </button>
         </div>
-        <div className="flex text-sm gap-x-2">
-          <div className="flex items-center gap-x-1">
+        <div className="flex text-sm gap-x-4">
+          <div className="flex items-center gap-x-2">
             <input
               type="range"
               min={6}
