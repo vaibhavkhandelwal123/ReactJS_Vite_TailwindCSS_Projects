@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router";
 
 function Contact() {
   return (
@@ -9,6 +10,7 @@ function Contact() {
         alt="name"
         className="border-5 border-gray-200 rounded-lg"
       />
+      <Outlet/>
     </div>
   );
 }
